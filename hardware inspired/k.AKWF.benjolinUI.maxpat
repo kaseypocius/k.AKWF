@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,116 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-129",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 287.703705000000014, 318.0, 221.0, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "Using record~ & groove~ for rungler output looping"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-128",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 106.5, 446.0, 221.0, 20.0 ],
+					"presentation_linecount" : 2,
+					"text" : "Tiny Delay needed for Feedback FM"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-125",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 420.5, 509.5, 199.0, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "Crossfade filter input from Rungler Out to PWM Out"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-135",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1502.5, 115.0, 103.0, 33.0 ],
+					"text" : "Declalre WT1, Else Triangle"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-134",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 578.5, 64.5, 103.0, 33.0 ],
+					"text" : "Declalre WT1, Else Triangle"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-133",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 120.5, 362.5, 168.0, 47.0 ],
+					"text" : "RUNGLER - Sample & Hold \nOSC A - Sample In \nOSC B Clock - Trigger In"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-132",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 870.0, 540.0, 78.0, 33.0 ],
+					"text" : "\"PWM\" Comparator"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-131",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 304.203705000000014, 136.0, 70.0, 20.0 ],
+					"text" : "OSC B"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-130",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 127.0, 136.0, 70.0, 20.0 ],
+					"text" : "OSC A"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-127",
 					"linecount" : 2,
@@ -66,7 +175,7 @@
 				"box" : 				{
 					"comment" : "LOOPLENGTH",
 					"id" : "obj-124",
-					"index" : 14,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -80,7 +189,7 @@
 				"box" : 				{
 					"comment" : "RUNGLERLOOPTOGGLE",
 					"id" : "obj-123",
-					"index" : 13,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -94,7 +203,7 @@
 				"box" : 				{
 					"comment" : "RUNGLER/PWM_MIXtoFILTER",
 					"id" : "obj-122",
-					"index" : 10,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -108,7 +217,7 @@
 				"box" : 				{
 					"comment" : "OSCAtoFMB",
 					"id" : "obj-121",
-					"index" : 12,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -122,7 +231,7 @@
 				"box" : 				{
 					"comment" : "OSCBtoFMA",
 					"id" : "obj-120",
-					"index" : 11,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -136,7 +245,7 @@
 				"box" : 				{
 					"comment" : "FILTERQ",
 					"id" : "obj-75",
-					"index" : 9,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -150,7 +259,7 @@
 				"box" : 				{
 					"comment" : "FILTERCUTOFF",
 					"id" : "obj-74",
-					"index" : 8,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -164,7 +273,7 @@
 				"box" : 				{
 					"comment" : "RUNGLERtoFILTERCUTOFF",
 					"id" : "obj-66",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -178,7 +287,7 @@
 				"box" : 				{
 					"comment" : "RUNGLERtoFMB",
 					"id" : "obj-62",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -192,7 +301,7 @@
 				"box" : 				{
 					"comment" : "RUNGLERtoFMA",
 					"id" : "obj-59",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -228,7 +337,7 @@
 				"box" : 				{
 					"comment" : "OSCBWT",
 					"id" : "obj-57",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -242,7 +351,7 @@
 				"box" : 				{
 					"comment" : "OSCAWT",
 					"id" : "obj-42",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -258,7 +367,7 @@
 					"comment" : "NOTCH",
 					"hint" : "NOTCH",
 					"id" : "obj-18",
-					"index" : 10,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -271,7 +380,7 @@
 				"box" : 				{
 					"comment" : "FREQB",
 					"id" : "obj-119",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -285,7 +394,7 @@
 				"box" : 				{
 					"comment" : "FREQA",
 					"id" : "obj-118",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -530,7 +639,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 425.953705000000014, 65.0, 150.0, 22.0 ],
+					"patching_rect" : [ 425.953705000000014, 70.0, 150.0, 22.0 ],
 					"text" : "if #1 > 0 then #1 else 1810"
 				}
 
@@ -724,7 +833,7 @@
 					"comment" : "PWM",
 					"hint" : "PWM",
 					"id" : "obj-70",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1180,7 +1289,7 @@
 					"comment" : "RUNGLER",
 					"hint" : "RUNGLER",
 					"id" : "obj-91",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1195,7 +1304,7 @@
 					"comment" : "BP",
 					"hint" : "BP",
 					"id" : "obj-85",
-					"index" : 9,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1210,7 +1319,7 @@
 					"comment" : "HP",
 					"hint" : "HP",
 					"id" : "obj-86",
-					"index" : 8,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1225,7 +1334,7 @@
 					"comment" : "LP",
 					"hint" : "LP",
 					"id" : "obj-87",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1240,7 +1349,7 @@
 					"comment" : "OSC B-CLK",
 					"hint" : "OSC B-CLK",
 					"id" : "obj-83",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1255,7 +1364,7 @@
 					"comment" : "OSC B-WT",
 					"hint" : "OSC B-WT",
 					"id" : "obj-84",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1270,7 +1379,7 @@
 					"comment" : "OSC A-CLK",
 					"hint" : "OSC A-CLK",
 					"id" : "obj-82",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1285,7 +1394,7 @@
 					"comment" : "OSC A-WT",
 					"hint" : "OSC A-WT",
 					"id" : "obj-81",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1435,21 +1544,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 101.5, 318.0, 185.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"basictuning" : 440,
-						"followglobaltempo" : 0,
-						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
-						"mode" : "basic",
-						"originallength" : [ 4799.999949000000015, "ticks" ],
-						"originaltempo" : 120.000000010225151,
-						"phase" : [ 0.0, "ticks" ],
-						"pitchcorrection" : 0,
-						"quality" : "basic",
-						"timestretch" : [ 0 ]
-					}
-,
 					"text" : "groove~ #0_benjolin @loop 1"
 				}
 
@@ -2807,7 +2901,352 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "k.AKWF.MasterLib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.NESlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.acousticguitlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.altosaxlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.birdslib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.bitreducedlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.blendedlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.cellolib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.clarinettlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.clavinetlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.commodore64lib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.dbasslib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.distortedlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.ebasslib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.eguitarlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.eorganlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.epianolib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.flutelib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.fmlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.granularlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.hdrawnlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.linearlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.oboelib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.oscchiplib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.overtonelib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.perfwaveslib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.pianolib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.pluckagolib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.rawlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.sawbrightlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.sawgaplib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.sawlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.sawroundedlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.sinharmlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.sinlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.snippetlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.squlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.squroundedlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.stringboxlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.symetricallib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.tannerinlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.thereminlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.trilib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.vgamebasiclib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.vgamelib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.violinlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.voicelib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.panpotUI.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lb.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
