@@ -24,3 +24,7 @@ Some patches inspired by <a href="https://web.archive.org/web/20141019122935/htt
 <h2> Morphing </h2>
 
 Some good and bad attempts at wavetable scanning. The 2 & 4 way morphs allow manual control of the fade between 2 or 4 wavetables allowing for basic to complex waveshaping to occur. The 8 sequential osc will fade between 8 different tables, and gives very mixed results. 
+
+<h2> mc </h2>
+
+A basic multichannel version, with an extra argument for channel count. Another inlet and slider are added, which take 2 floats between 0 & 1, which allows you to control the phase offset between channels.
