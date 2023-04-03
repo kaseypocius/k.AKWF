@@ -28,3 +28,7 @@ Some good and bad attempts at wavetable scanning. The 2 & 4 way morphs allow man
 <h2> mc </h2>
 
 A basic multichannel version, with an extra argument for channel count. Another inlet and slider are added, which take 2 floats between 0 & 1, which allows you to control the phase offset between channels.
+
+<h2> chorus </h2>
+
+Inspired by the CNMAT external, this is a basic chorus with the cycle~ replaced with a wavetable oscillator. Takes 3 arguments, a float for feeback, an int for the wavetable number and a float for the ratio of chrous delay lengths.
