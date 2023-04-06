@@ -31,4 +31,4 @@ A basic multichannel version, with an extra argument for channel count. Another 
 
 <h2> chorus </h2>
 
-Inspired by the CNMAT external, this is a basic chorus with the cycle~ replaced with a wavetable oscillator. Takes 3 arguments, a float for feeback, an int for the wavetable number and a float for the ratio of chrous delay lengths.
+Inspired by the CNMAT external, this is a basic chorus with the cycle~ replaced with a wavetable oscillator. Takes 3 arguments, a float for feeback, an int for the wavetable number and a float for the ratio of chrous modulator frequencies.
