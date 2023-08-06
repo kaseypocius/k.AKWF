@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 802.0, 687.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 34.0, 100.0, 802.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"annotation" : "wavetable4selec",
@@ -48,7 +50,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 780.0, 34.0, 30.0, 30.0 ],
-					"style" : "",
 					"varname" : "wavetable4selec"
 				}
 
@@ -65,7 +66,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 701.0, 34.0, 30.0, 30.0 ],
-					"style" : "",
 					"varname" : "wavetable3selec"
 				}
 
@@ -91,7 +91,6 @@
 					"patching_rect" : [ 725.5, 416.0, 54.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 468.0, 254.0, 157.0, 26.0 ],
-					"style" : "",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 
@@ -117,7 +116,6 @@
 					"patching_rect" : [ 262.0, 390.0, 120.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 254.0, 157.0, 26.0 ],
-					"style" : "",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 
@@ -143,7 +141,6 @@
 					"patching_rect" : [ 639.5, 74.0, 120.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 468.0, 49.0, 157.0, 26.0 ],
-					"style" : "",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 
@@ -169,7 +166,6 @@
 					"patching_rect" : [ 249.0, 74.0, 93.5, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 49.0, 157.0, 26.0 ],
-					"style" : "",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 
@@ -181,7 +177,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 891.0, 341.0, 109.0, 22.0 ],
-					"style" : "",
 					"text" : "k.AKWF.MasterLib"
 				}
 
@@ -194,7 +189,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 725.5, 517.0, 36.0, 22.0 ],
-					"style" : "",
 					"text" : "*~ 1."
 				}
 
@@ -207,7 +201,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 725.5, 551.0, 36.0, 22.0 ],
-					"style" : "",
 					"text" : "*~ 1."
 				}
 
@@ -220,7 +213,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 694.5, 179.0, 36.0, 22.0 ],
-					"style" : "",
 					"text" : "*~ 1."
 				}
 
@@ -233,7 +225,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 694.5, 213.0, 36.0, 22.0 ],
-					"style" : "",
 					"text" : "*~ 1."
 				}
 
@@ -246,7 +237,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 306.5, 502.0, 36.0, 22.0 ],
-					"style" : "",
 					"text" : "*~ 1."
 				}
 
@@ -259,7 +249,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 306.5, 536.0, 36.0, 22.0 ],
-					"style" : "",
 					"text" : "*~ 1."
 				}
 
@@ -272,7 +261,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 289.5, 284.0, 36.0, 22.0 ],
-					"style" : "",
 					"text" : "*~ 1."
 				}
 
@@ -285,7 +273,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 614.0, 512.0, 33.0, 22.0 ],
-					"style" : "",
 					"text" : "sig~"
 				}
 
@@ -298,7 +285,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 579.0, 512.0, 33.0, 22.0 ],
-					"style" : "",
 					"text" : "sig~"
 				}
 
@@ -311,7 +297,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 513.0, 502.0, 33.0, 22.0 ],
-					"style" : "",
 					"text" : "sig~"
 				}
 
@@ -324,7 +309,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 478.0, 502.0, 33.0, 22.0 ],
-					"style" : "",
 					"text" : "sig~"
 				}
 
@@ -337,7 +321,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 602.0, 447.0, 99.0, 22.0 ],
-					"style" : "",
 					"text" : "scale 0 127 0. 1."
 				}
 
@@ -350,7 +333,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "", "" ],
 					"patching_rect" : [ 553.0, 476.0, 69.0, 22.0 ],
-					"style" : "",
 					"text" : "k.panpotUI"
 				}
 
@@ -363,7 +345,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 289.5, 318.0, 36.0, 22.0 ],
-					"style" : "",
 					"text" : "*~ 1."
 				}
 
@@ -380,7 +361,6 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 627.0, 210.0, 105.0, 42.0 ],
-					"style" : "",
 					"text" : "WaveTable 4 #",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
@@ -399,7 +379,6 @@
 					"patching_rect" : [ 685.0, 570.0, 55.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 627.0, 254.0, 102.0, 26.0 ],
-					"style" : "",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 
@@ -415,7 +394,6 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 2.0, 210.0, 157.0, 42.0 ],
-					"style" : "",
 					"text" : "WaveTable 3 Selection",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
@@ -437,7 +415,6 @@
 					"presentation_rect" : [ 7.0, 282.0, 256.0, 127.0 ],
 					"selectioncolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 					"setmode" : 1,
-					"style" : "",
 					"waveformcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 
@@ -454,7 +431,6 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 161.0, 210.0, 105.0, 42.0 ],
-					"style" : "",
 					"text" : "WaveTable 3 #",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
@@ -473,7 +449,6 @@
 					"patching_rect" : [ 266.0, 552.0, 55.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 254.0, 102.0, 26.0 ],
-					"style" : "",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 
@@ -486,7 +461,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 306.5, 471.0, 65.0, 22.0 ],
-					"style" : "",
 					"text" : "wave~ Off"
 				}
 
@@ -499,7 +473,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 306.5, 432.0, 43.0, 22.0 ],
-					"style" : "",
 					"text" : "set $1"
 				}
 
@@ -520,7 +493,6 @@
 					"presentation_rect" : [ 468.0, 282.0, 256.0, 127.0 ],
 					"selectioncolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 					"setmode" : 1,
-					"style" : "",
 					"waveformcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 
@@ -536,7 +508,6 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 468.0, 210.0, 157.0, 42.0 ],
-					"style" : "",
 					"text" : "WaveTable 4 Selection",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
@@ -550,7 +521,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 725.5, 491.0, 65.0, 22.0 ],
-					"style" : "",
 					"text" : "wave~ Off"
 				}
 
@@ -563,7 +533,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 725.5, 452.0, 43.0, 22.0 ],
-					"style" : "",
 					"text" : "set $1"
 				}
 
@@ -580,7 +549,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 979.5, 26.0, 30.0, 30.0 ],
-					"style" : "",
 					"varname" : "ypos(1-127)"
 				}
 
@@ -593,7 +561,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 491.0, 447.0, 99.0, 22.0 ],
-					"style" : "",
 					"text" : "scale 0 127 0. 1."
 				}
 
@@ -610,8 +577,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 491.0, 321.0, 100.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 278.0, 53.0, 179.0, 151.0 ],
-					"style" : ""
+					"presentation_rect" : [ 278.0, 53.0, 179.0, 151.0 ]
 				}
 
 			}
@@ -623,7 +589,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "", "" ],
 					"patching_rect" : [ 463.0, 471.0, 69.0, 22.0 ],
-					"style" : "",
 					"text" : "k.panpotUI"
 				}
 
@@ -640,7 +605,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 918.5, 26.0, 30.0, 30.0 ],
-					"style" : "",
 					"varname" : "xpos(1-127)"
 				}
 
@@ -653,7 +617,6 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "int", "int", "", "", "" ],
 					"patching_rect" : [ 416.0, 22.0, 114.0, 22.0 ],
-					"style" : "",
 					"text" : "t #1 64 64 #2 #3 #4"
 				}
 
@@ -666,7 +629,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 416.0, -2.0, 60.0, 22.0 ],
-					"style" : "",
 					"text" : "loadbang"
 				}
 
@@ -679,13 +641,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 438.0, 568.0, 42.0, 22.0 ],
-					"style" : "",
 					"text" : "*~ 0.5"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"automatic" : 1,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fgcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"gridcolor" : [ 1.0, 1.0, 1.0, 0.32 ],
@@ -695,8 +657,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 438.0, 600.0, 130.0, 130.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 278.0, 218.0, 179.0, 184.0 ],
-					"style" : ""
+					"presentation_rect" : [ 278.0, 218.0, 179.0, 184.0 ]
 				}
 
 			}
@@ -708,8 +669,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 353.0, 607.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 353.0, 607.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -721,7 +681,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 426.0, 492.0, 29.5, 22.0 ],
-					"style" : "",
 					"text" : "+~"
 				}
 
@@ -742,7 +701,6 @@
 					"presentation_rect" : [ 468.0, 77.0, 256.0, 127.0 ],
 					"selectioncolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 					"setmode" : 1,
-					"style" : "",
 					"waveformcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 
@@ -759,7 +717,6 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 627.0, 3.0, 105.0, 42.0 ],
-					"style" : "",
 					"text" : "WaveTable 2 # ",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
@@ -778,7 +735,6 @@
 					"patching_rect" : [ 654.0, 230.0, 55.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 627.0, 49.0, 102.0, 26.0 ],
-					"style" : "",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 
@@ -794,7 +750,6 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 468.0, 3.0, 157.0, 42.0 ],
-					"style" : "",
 					"text" : "WaveTable 2 Selection",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
@@ -812,7 +767,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 639.5, 34.0, 30.0, 30.0 ],
-					"style" : "",
 					"varname" : "wavetable2selec"
 				}
 
@@ -825,7 +779,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 694.5, 149.0, 65.0, 22.0 ],
-					"style" : "",
 					"text" : "wave~ Off"
 				}
 
@@ -838,7 +791,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 694.5, 110.0, 43.0, 22.0 ],
-					"style" : "",
 					"text" : "set $1"
 				}
 
@@ -851,7 +803,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 891.0, 365.0, 94.0, 22.0 ],
-					"style" : "",
 					"text" : "buffer~ Off 0.01"
 				}
 
@@ -872,7 +823,6 @@
 					"presentation_rect" : [ 7.0, 77.0, 256.0, 127.0 ],
 					"selectioncolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 					"setmode" : 1,
-					"style" : "",
 					"waveformcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 
@@ -889,7 +839,6 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 161.0, 3.0, 105.0, 42.0 ],
-					"style" : "",
 					"text" : "WaveTable 1 #",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
@@ -908,7 +857,6 @@
 					"patching_rect" : [ 249.0, 230.0, 55.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 49.0, 102.0, 26.0 ],
-					"style" : "",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 
@@ -924,7 +872,6 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 2.0, 3.0, 157.0, 42.0 ],
-					"style" : "",
 					"text" : "WaveTable 1 Selection",
 					"textcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
@@ -938,7 +885,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 213.0, 110.0, 54.0, 22.0 ],
-					"style" : "",
 					"text" : "phasor~"
 				}
 
@@ -955,7 +901,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 249.0, 34.0, 30.0, 30.0 ],
-					"style" : "",
 					"varname" : "wavetable1selec"
 				}
 
@@ -972,7 +917,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 213.0, 34.0, 30.0, 30.0 ],
-					"style" : "",
 					"varname" : "freqin"
 				}
 
@@ -985,7 +929,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 289.5, 149.0, 65.0, 22.0 ],
-					"style" : "",
 					"text" : "wave~ Off"
 				}
 
@@ -998,7 +941,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 289.5, 110.0, 43.0, 22.0 ],
-					"style" : "",
 					"text" : "set $1"
 				}
 
@@ -1016,8 +958,7 @@
 					"patching_rect" : [ 856.0, 568.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -3.0, -7.0, 1211.0, 749.0 ],
-					"proportion" : 0.39,
-					"style" : ""
+					"proportion" : 0.39
 				}
 
 			}
@@ -1180,7 +1121,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 2 ],
-					"midpoints" : [ 170.7, 216.0, 354.0, 216.0, 354.0, 144.0, 345.0, 144.0 ],
+					"midpoints" : [ 170.699999999999989, 216.0, 354.0, 216.0, 354.0, 144.0, 345.0, 144.0 ],
 					"source" : [ "obj-3", 3 ]
 				}
 
@@ -1188,7 +1129,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 1 ],
-					"midpoints" : [ 123.3, 216.0, 285.0, 216.0, 285.0, 144.0, 322.0, 144.0 ],
+					"midpoints" : [ 123.299999999999997, 216.0, 285.0, 216.0, 285.0, 144.0, 322.0, 144.0 ],
 					"source" : [ "obj-3", 2 ]
 				}
 
@@ -1260,7 +1201,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 2 ],
-					"midpoints" : [ 962.7, 558.0, 798.0, 558.0, 798.0, 525.0, 792.0, 525.0, 792.0, 486.0, 781.0, 486.0 ],
+					"midpoints" : [ 962.700000000000045, 558.0, 798.0, 558.0, 798.0, 525.0, 792.0, 525.0, 792.0, 486.0, 781.0, 486.0 ],
 					"source" : [ "obj-34", 3 ]
 				}
 
@@ -1268,7 +1209,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 1 ],
-					"midpoints" : [ 915.3, 558.0, 798.0, 558.0, 798.0, 525.0, 792.0, 525.0, 792.0, 486.0, 758.0, 486.0 ],
+					"midpoints" : [ 915.299999999999955, 558.0, 798.0, 558.0, 798.0, 525.0, 792.0, 525.0, 792.0, 486.0, 758.0, 486.0 ],
 					"source" : [ "obj-34", 2 ]
 				}
 
@@ -1302,7 +1243,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 2 ],
-					"midpoints" : [ 931.7, 225.0, 759.0, 225.0, 759.0, 144.0, 750.0, 144.0 ],
+					"midpoints" : [ 931.700000000000045, 225.0, 759.0, 225.0, 759.0, 144.0, 750.0, 144.0 ],
 					"source" : [ "obj-4", 3 ]
 				}
 
@@ -1310,7 +1251,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 884.3, 225.0, 759.0, 225.0, 759.0, 144.0, 727.0, 144.0 ],
+					"midpoints" : [ 884.299999999999955, 225.0, 759.0, 225.0, 759.0, 144.0, 727.0, 144.0 ],
 					"source" : [ "obj-4", 2 ]
 				}
 
@@ -1396,7 +1337,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 2 ],
-					"midpoints" : [ 187.7, 537.0, 303.0, 537.0, 303.0, 531.0, 381.0, 531.0, 381.0, 465.0, 362.0, 465.0 ],
+					"midpoints" : [ 187.699999999999989, 537.0, 303.0, 537.0, 303.0, 531.0, 381.0, 531.0, 381.0, 465.0, 362.0, 465.0 ],
 					"source" : [ "obj-46", 3 ]
 				}
 
@@ -1404,7 +1345,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 1 ],
-					"midpoints" : [ 140.3, 537.0, 303.0, 537.0, 303.0, 468.0, 339.0, 468.0 ],
+					"midpoints" : [ 140.300000000000011, 537.0, 303.0, 537.0, 303.0, 468.0, 339.0, 468.0 ],
 					"source" : [ "obj-46", 2 ]
 				}
 
@@ -1629,345 +1570,345 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "k.panpotUI.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lb.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "k.AKWF.MasterLib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.acousticguitlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.altosaxlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.birdslib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.bitreducedlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.blendedlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.commodore64lib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.cellolib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.clarinettlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.clavinetlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.dbasslib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.distortedlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.ebasslib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.eguitarlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.eorganlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.epianolib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.flutelib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.fmlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.granularlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.hdrawnlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.linearlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.NESlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.acousticguitlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.altosaxlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.birdslib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.bitreducedlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.blendedlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.cellolib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.clarinettlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.clavinetlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.commodore64lib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.dbasslib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.distortedlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.ebasslib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.eguitarlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.eorganlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.epianolib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.flutelib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.fmlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.granularlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.hdrawnlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.linearlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.oboelib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.oscchiplib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.overtonelib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.perfwaveslib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.thereminlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.tannerinlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.pianolib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.pluckagolib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.rawlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.sawlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.sawbrightlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.sawgaplib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.sawlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.sawroundedlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.sinlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.sinharmlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.sinlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.snippetlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.squlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.squroundedlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.stringboxlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.symetricallib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.tannerinlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.thereminlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.trilib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.vgamelib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.vgamebasiclib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.vgamelib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.violinlib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "k.AKWF.voicelib.maxpat",
-				"bootpath" : "~/Documents/Max 7/personal objects",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.panpotUI.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lb.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

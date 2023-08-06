@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 802.0, 687.0 ],
+		"rect" : [ 34.0, 100.0, 1428.0, 826.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"annotation" : "FM Ratio3 (on/off)",
@@ -3642,8 +3643,337 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "k.polywavetablecore.maxpat",
+				"name" : "k.AKWF.MasterLib.maxpat",
 				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.NESlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.acousticguitlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.altosaxlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.birdslib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.bitreducedlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.blendedlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.cellolib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.clarinettlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.clavinetlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.commodore64lib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.dbasslib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.distortedlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.ebasslib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.eguitarlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.eorganlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.epianolib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.flutelib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.fmlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.granularlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.hdrawnlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.linearlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.oboelib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.oscchiplib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.overtonelib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.perfwaveslib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.pianolib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.pluckagolib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.rawlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.sawbrightlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.sawgaplib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.sawlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.sawroundedlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.sinharmlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.sinlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.snippetlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.squlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.squroundedlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.stringboxlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.symetricallib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.tannerinlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.thereminlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.trilib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.vgamebasiclib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.vgamelib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.violinlib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.AKWF.voicelib.maxpat",
+				"bootpath" : "~/Documents/Max 8/Personal Objects",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k.polywavetablecore.maxpat",
+				"bootpath" : "~/Documents/GitHub/k.AKWF/poly",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3651,336 +3981,7 @@
 , 			{
 				"name" : "k.polywavtetableADSRpresetdisplay.maxpat",
 				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.Masterlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.acousticguitlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.altosaxlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.birdslib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.bitreducedlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.blendedlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.commodore64lib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.cellolib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.clarinettlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.clavinetlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.dbasslib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.distortedlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.ebasslib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.eguitarlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.eorganlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.epianolib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.flutelib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.fmlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.granularlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.hdrawnlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.linearlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.NESlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.oboelib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.oscchiplib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.overtonelib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.perfwaveslib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.thereminlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.tannerinlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.pianolib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.pluckagolib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.rawlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.sawlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.sawbrightlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.sawgaplib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.sawroundedlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.sinlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.sinharmlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.snippetlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.squlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.squroundedlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.stringboxlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.symetricallib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.trilib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.vgamelib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.vgamebasiclib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.violinlib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k.AKWF.voicelib.maxpat",
-				"bootpath" : "~/Documents/Max 8/Personal Objects",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../Max 8/Personal Objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
